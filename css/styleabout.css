@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 21vh;
+  width: 100%;
+}
+.header-logo {
+  margin-top: 4rem;
+  text-transform: uppercase;
+}
+.header-logo h1 {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 45px;
+  transition: 0.2s;
+}
+.header-logo h1:hover {
+  color: #4e4e4e;
+}
+.header-navbar {
+  margin-top: 2.6rem;
+}
+.header-navbar ul {
+  list-style: none;
+  display: flex;
+}
+.header-navbar li {
+  margin-right: 1rem;
+}
+.header-navbar li a {
+  text-decoration: none;
+  color: #888888;
+}
+.header-navbar li a:hover {
+  color: #333333;
+  transition: 0.4s;
+}
+.header-navbar li a.active {
+  color: #333333;
+}
+.main{
+    
+}
+.social img{
+    height: 2vh;
+    width: 2vh;
+    cursor: pointer;
+    margin-left: 95px;
+   
+}
+.avatar img{
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 200px;
+    
+}
+.perfil{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 6rem;
+    border: 2px solid black;
+    padding: 2px;
+    box-shadow: 0px 0px 40px gray;
+}
+.perfil1 {
+    width: 50%;
+    display: flex;
+    
+}
+.perfil2 {
+    width: 50%;
+    display: flex;
+}
+.perfil3 {
+    width: 50%;
+    display: flex;
+    
+}
+.perfil4 {
+    width: 50%;
+    display: flex;
+}
+.perfil1 h3{
+    margin-left: 1rem;
+    font-weight: 400;
+    width: 400px;
+}
+.perfil2 h3{
+    margin-left: 1rem; 
+    font-weight: 400;
+    width: 400px;
+}
+.perfil3 h3{
+    margin-left: 1rem;
+    font-weight: 400;
+    width: 400px;
+}
+.perfil4 h3{
+    margin-left: 1rem;
+    font-weight: 400;
+    width: 400px;
+}
+.perfil1 h4{
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.perfil2 h4{
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.perfil3 h4{
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.perfil4 h4{
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.imgrs{
+  height: 2vh;
+  width: 2vh;
+}
+

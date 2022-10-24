@@ -1,0 +1,113 @@
+@use 'mixins'
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap')
+
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Poppins', sans-serif
+
+.header
+    display: flex
+    align-items: center
+    flex-direction: column
+    height: 21vh
+    width: 100%
+    &-logo
+        margin-top: 4rem
+        text-transform: uppercase
+
+        h1
+            cursor: pointer
+            font-weight: 700
+            font-size: 45px
+            transition: .2s
+            
+            &:hover
+                color: #4e4e4e
+    &-navbar
+        margin-top: 2.6rem
+        ul
+            list-style: none
+            display: flex
+        
+        li
+            margin-right: 1rem
+
+            a
+                text-decoration: none
+                color: #888888
+                
+                &:hover
+                    color: #333333
+                    transition: .4s
+
+                &.active
+                    color: #333333
+
+.main
+    display: flex
+    justify-content: center
+    flex-direction: column
+    margin: 0 auto
+    overflow: hidden
+    max-width: 60vw
+
+    &-next-page
+        transition: 10s
+        color: black
+        cursor: pointer
+        position: absolute
+        left: calc( 100% - 450px  )
+        bottom: -1750px
+    
+    &-back-page
+        transition: 10s
+        color: black
+        cursor: pointer
+        position: absolute
+        left: calc( 100% - 1400px  )
+        bottom: -1750px
+    
+    #nextpage
+        color: black
+    
+    #lastpage
+        color: black
+
+    &-content-1
+        @include mixins.container-content
+        
+    &-content-2
+        @include mixins.container-content
+        img
+            margin-top: 60px
+    
+    &-content-3
+        @include mixins.container-content
+        img
+            margin-top: 60px
+    
+    &-second-page
+        
+        transition: .9s
+        position: relative
+        left: 1300px
+        bottom: 15px
+
+    .pag1
+        height: 10px
+        transition: .9s
+        position: relative
+        top: 0
+        left: 0
+
+footer
+    color: #b8b8b8
+    margin-top: 80px
+    text-align: center
+    a
+        text-decoration: none
+        color: #b8b8b8
+        margin-left: 20px
